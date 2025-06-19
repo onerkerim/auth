@@ -5,8 +5,11 @@ from sqlalchemy.orm import Session
 
 from app.api.deps import get_db, get_current_active_superuser
 from app.core.exceptions import NotFoundException
-from app.models.user import Role
+
 from app.schemas.user import RoleCreate, RoleRead
+
+
+
 
 router = APIRouter()
 
