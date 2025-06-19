@@ -1,20 +1,7 @@
 # Virtual environment
 .venv/
-venv/
 
-# Byte-code files
-*.pyc
+# Python compiled files
 __pycache__/
+*.pyc
 
-# IDE files (if any, e.g., .idea/ for PyCharm)
-.idea/
-
-# Environment variables file
-.env
-
-# Database file (if using SQLite)
-*.sqlite3
-*.db
-
-# Alembic migration files cache
-alembic/__pycache__/
