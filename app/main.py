@@ -13,7 +13,7 @@ app = FastAPI(
 
 # CORS ayarları
 origins = [
-    "http://localhost:3000"
+    "*"
 ]
 
 if settings.BACKEND_CORS_ORIGINS:
